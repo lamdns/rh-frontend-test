@@ -1,0 +1,130 @@
+* {
+  color: white
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: #1A1B1C;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App.login input[type="text"]{
+  background: #393B3F;
+  color: #999CA0;
+  border-bottom: none;
+  height: 35px;
+  border-radius: 3px;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.input-field {
+  margin: 0;
+}
+
+.input-field input{
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h6 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header {
+  height: 18%;
+  background-color: rgb(16, 16, 17);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.header img {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 45px;  
+}
+
+.body {
+  width: 70%;
+  text-align: left;
+}
+
+.body label{
+  font-size : 12px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.sub-title {
+  font-size: 12px;
+  color: #393B3F;
+}
+
+.sub-title .material-icons {
+  font-size: 10px;
+}
+
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.footer {
+  background-color: rgb(16, 16, 17);
+  height: 105px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer button {
+  background-color: #4CC9F0;
+  color: #1A1B1C;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+a {
+  font-size: 12px;
+  line-height: 20px;
+  color: #d8dbde;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
