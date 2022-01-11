@@ -3,6 +3,7 @@
 .form-control {
   display: block;
   font-size: 16px;
+  text-align: left;
 
   > label {
     display: block;
@@ -12,13 +13,16 @@
     color: $soft-gray;
   }
 
+  > input {
+    min-height: 51px;
+  }
+
   > input,
   > textarea {
     width: 100%;
     padding: 16px;
     background: $onix-gray;
-    border: 1px solid $onix-gray;
-    box-sizing: border-box;
+    border: 0;
     border-radius: 5px;
     color: $gray;
   }

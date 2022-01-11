@@ -1,4 +1,4 @@
-// @import '../../scss/colors-rewrite';
+@import '../../scss/theme';
 
 .breadcrumb-wrapper {
   display: flex;
@@ -7,6 +7,8 @@
   justify-content: center;
   height: auto;
   line-height: 1;
+  color: inherit;
+  box-shadow: none;
 }
 
 .breadcrumb {
@@ -16,7 +18,11 @@
 }
 
 .breadcrumb:not(:last-child) {
-  // color: $soft-gray;
+  color: $onix-gray;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 .breadcrumb::before {

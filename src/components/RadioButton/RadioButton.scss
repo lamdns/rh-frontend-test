@@ -1,7 +1,9 @@
+@import "../../scss/theme";
+
 $btn-width: 24px;
 $btn-offset-right: 8px;
 
-.radio-button {
+.radio-btn {
   position: relative;
 
   &-real {
@@ -30,6 +32,7 @@ $btn-offset-right: 8px;
       display: block;
       width: 100%;
       height: 100%;
+      border-radius: inherit;
       background: $brand-blue;
       transform: scale(0);
       transition: transform 0.35s;

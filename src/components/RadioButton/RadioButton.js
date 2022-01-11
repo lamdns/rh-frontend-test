@@ -12,7 +12,7 @@ const RadioButton = ({
   ...props
 }) => {
   return (
-    <div className={classNames('radio-button', className)}>
+    <div className={classNames('radio-btn', className)}>
       <input className="radio-btn-real" id={id} type={type} {...props} />
       <label className="radio-btn-wrapper" htmlFor={id}>
         <div className="radio-btn-fake"></div>
